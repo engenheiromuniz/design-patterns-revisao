@@ -1,4 +1,4 @@
-package strategy;
+package comportamentais.strategy;
 
 public interface EstrategiaFrete {
 	

@@ -1,5 +1,4 @@
-package strategy;
-
+package comportamentais.strategy;
 public class FreteGratis implements EstrategiaFrete {
 
 	@Override
