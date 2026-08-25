@@ -1,4 +1,4 @@
-package strategy;
+package comportamentais.strategy;
 
 public class FreteRapido implements EstrategiaFrete{
 
