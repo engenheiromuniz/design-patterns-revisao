@@ -18,7 +18,9 @@ public class SingletonLazy {
 	private static SingletonLazy instancia;
 	private int contador = 0;
 	
-	private SingletonLazy getInstance() {
+	public SingletonLazy() { }
+	
+	public static SingletonLazy getInstance() {
 		if(instancia == null) {
 			instancia = new SingletonLazy();
 		}
